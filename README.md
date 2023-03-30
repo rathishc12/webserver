@@ -40,10 +40,13 @@ content='''
 <h1>Top Five Web Application Development Frameworks</h1>
 <h2>1.Django</h2>
 <h2>2. MEAN Stack</h2>
-<h2>3. React </h2>
+<h2>3. React</h2>
+<h2>4. Angular</h2>
+<h2>5. Spring</h2>
 </body>
 </html>
 '''
+
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Get request received...")
@@ -58,6 +61,11 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 ```
 ## OUTPUT:
+### Server output
+![web as](https://user-images.githubusercontent.com/120539398/228721455-9322b66a-469c-42ec-88a2-0e693fd3ba8c.png)
+###Client output
+![Screenshot 2023-03-30 085835](https://user-images.githubusercontent.com/120539398/228721624-f1eae85b-f213-4d05-82b3-e6da3dca6da2.png)
+###
 
 ## RESULT:
 The program is executed succesfully
